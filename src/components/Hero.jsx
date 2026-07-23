@@ -19,11 +19,11 @@ function Hero() {
           We Help Brands Grow With <span className="text-red-400">Web, Apps & Marketing </span>Solutions Across The Globe.
 
           </p>
-            <div className="text-center">
-          <button className="mt-8 rounded-xl bg-white  p-2  m-4 cursor-pointer text-black">
+            <div className="text-center cursor-pointer">
+          <button className="mt-8 rounded-xl bg-white  p-2  m-4  text-black">
           Schedule Meeting
           </button>
-          <button className="mt-8 rounded-xl bg-slate-950 p-2 cursor-pointer text-white">
+          <button className="mt-8 rounded-xl bg-slate-900 p-2 cursor-pointer text-white">
             Services
           </button>
           </div>
