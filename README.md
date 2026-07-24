@@ -145,23 +145,6 @@ The website is fully responsive and optimized for:
 
 ---
 
-## 📷 Screenshots
-
-Add screenshots here after deployment.
-
-Example:
-
-```
-screenshots/
-│
-├── homepage.png
-├── services.png
-├── process.png
-└── contact.png
-```
-
----
-
 ## 📌 Future Improvements
 
 - Blog Section
