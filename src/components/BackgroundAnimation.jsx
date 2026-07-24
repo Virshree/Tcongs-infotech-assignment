@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function BackgroundAnimation() {
   return (
-    <div className="absolute inset-0 overflow-hidden">
+    <div className="absolute inset-0 overflow-hidden cursor-pointer">
 
       {/* Blob 1 */}
       <motion.div

@@ -5,7 +5,6 @@ function Blog() {
   return (
     <section className="bg-gradient-to-r from-purple-900 to-blue-800">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 px-6 py-16 lg:px-12 lg:py-24">
-
         {/* Left Content */}
         <div className="text-center lg:text-left flex-1">
           <h2 className="text-white font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight">
@@ -19,7 +18,7 @@ function Blog() {
           </p>
 
           <button className="mt-8 rounded-xl bg-red-400 px-8 py-4 font-semibold text-black cursor-pointer">
-            Start Your Project
+            Start Your Project 🚀
           </button>
         </div>
 
@@ -31,7 +30,6 @@ function Blog() {
             className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto"
           />
         </div>
-
       </div>
     </section>
   );

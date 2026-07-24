@@ -1,35 +1,48 @@
 import React from "react";
 import BackgroundAnimation from "./BackgroundAnimation";
+import TrustedBanner from "./TrustedBanner";
 
 function Hero() {
+
+
   return (
-    <div>
-      <section className="relative overflow-hidden bg-slate-950">
-        {/* Floating Background */}
-        <BackgroundAnimation />
+    <section className="relative  overflow-hidden  bg-slate-950 flex-col items-center">
+      
+      <BackgroundAnimation />
+      <TrustedBanner/>
+      {/* Hero Content */}
+      <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 text-center">
+        <h1 className="text-white font-extrabold uppercase leading-tight">
+          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl ">
+            Smart Digital
+          </span>
+          <span className="block mt-2 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+            Solutions for Modern
+          </span>
+          <span className="block mt-2 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+            Businesses
+          </span>
+        </h1>
 
-        {/* Hero Content */}
-        <div className=" max-w-7xl m-auto p-2">
-          <h1 className="text-6xl  uppercase font-bold text-white  text-center m-14 flex flex-col">
-            <h2 className="p-3">Smart digital</h2>
-            <h2 className="p-1">Solutions for modern </h2>
-            <h2>Businesses</h2>
-          </h1>
-          <p className=" text-gray-300 text-center">
-          We Help Brands Grow With <span className="text-red-400">Web, Apps & Marketing </span>Solutions Across The Globe.
+        <p className="mt-8 text-gray-300 text-base sm:text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
+          We Help Brands Grow With{" "}
+          <span className="text-red-400 font-semibold">
+            Web, Apps & Marketing
+          </span>{" "}
+          Solutions Across The Globe.
+        </p>
 
-          </p>
-            <div className="text-center cursor-pointer">
-          <button className="mt-8 rounded-xl bg-white  p-2  m-4  text-black">
-          Schedule Meeting
+        <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
+          <button className="w-full sm:w-auto rounded-2xl bg-white px-8 py-3 text-black font-semibold hover:bg-gray-200 transition duration-300 cursor-pointer">
+            Schedule Meeting
           </button>
-          <button className="mt-8 rounded-xl bg-slate-900 p-2 cursor-pointer text-white">
+
+          <button className="w-full sm:w-auto rounded-2xl bg-slate-800 px-8 py-3 text-white font-semibold hover:bg-slate-700 transition duration-300 cursor-pointer border border-slate-700">
             Services
           </button>
-          </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
 
